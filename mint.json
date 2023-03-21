@@ -1,0 +1,55 @@
+{
+  "name": "StackOne",
+  "logo": {
+    "dark": "/logo/logo-dark.png",
+    "light": "/logo/logo-light.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#E15D63",
+    "light": "#FF8B90",
+    "dark": "#df2975",
+    "anchors": {
+      "from": "#FC9095",
+      "to": "#783191"
+    }
+  },
+  "topbarCtaButton": {
+    "name": "Login",
+    "url": "https://app.stackone.com/"
+  },
+  "anchors": [
+    {
+      "name": "API Reference",
+      "icon": "rectangle-terminal",
+      "url": "api-reference"
+    },
+    {
+      "name": "Get Started",
+      "icon": "play",
+      "url": "https://stackone.com/"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Home",
+      "pages": ["introduction", "features"]
+    },
+    {
+      "group": "API Documentation",
+      "pages": ["api-reference/authentication"]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/update",
+        "api-reference/endpoint/delete"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "linkedin": "https://www.linkedin.com/company/stackonehq"
+  }
+}
